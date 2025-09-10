@@ -1,0 +1,41 @@
+/* css reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+display: flex;
+justify-content: center;
+background-color: #19123f;
+color: white;
+}
+
+main{
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.altura, .peso, .Calc{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+input, button{
+    padding: 10px;
+    border-radius: 15px;
+}
+
+button{
+    background-color: aqua;
+}
